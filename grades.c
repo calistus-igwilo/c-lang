@@ -18,7 +18,7 @@ int main(void) {
         scanf("%d", &grade);
         totalGrade += grade;
     }
-    dNumGrades = (double) numGrades;
+    dNumGrades = (double) numGrades; // cast int to double
     averageGrade = totalGrade/dNumGrades;
     printf("Average grade: %.2lf\n", averageGrade);
 }
