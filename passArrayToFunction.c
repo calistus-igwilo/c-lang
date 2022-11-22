@@ -7,7 +7,8 @@ int main() {
     return 0;
 }
 void reset(int * ptr){  //pass array to function
-    * ptr = 0;
-    * (ptr + 1) = 0;
-    * (ptr + 2) = 0;
+    // zerorize elements of the array
+    * ptr = 0;          // equivalent to ptr[0] = 0
+    * (ptr + 1) = 0;    // equivalent to ptr[1] = 0
+    * (ptr + 2) = 0;    // equivalent to ptr[2] = 0
 }
