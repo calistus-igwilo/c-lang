@@ -29,10 +29,10 @@ int main(void){
     }else if (variableType == 'd') {
         size = sizeof(double);
     } 
-    amountOfSpace = numOfVariables * size;
+    amountOfSpace = size * numOfVariables;
     
     
-    MB = amountOfSpace / 1000000; // get integer part of MB
+    MB = amountOfSpace / 1000000; // get integer part of Megabyte (MB)
     KBofMB = (amountOfSpace % 1000000) / 1000;  // get the modulus part of MB
     BofMB = (amountOfSpace % 1000) % 1000; // get the modulus part of KB
     

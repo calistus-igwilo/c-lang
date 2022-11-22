@@ -13,5 +13,5 @@ int main(){
     printf("%u\n", *address);
 
     int prices[3] = {5, 4, 3};
-    printf("%u\n", *prices); /* 5 it prints the value of */
+    printf("%u\n", *prices); /* 5 it prints the value of the first element*/
 }
