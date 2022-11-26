@@ -19,13 +19,13 @@ int main(void) {
 void readStudent(struct student *studptr) {
     printf("\nEnter a new student record: \n");
     printf("First name: ");
-    scanf("%s", (*studptr).firstName);
+    scanf("%s", (*studptr).firstName); // equivalent to scanf("%s", studptr->firstname)
     printf("Last name: ");
-    scanf("%s", (*studptr).lastName);
+    scanf("%s", (*studptr).lastName);  //scanf("%s", studptr->lastname)
     printf("Birth year: ");
-    scanf("%d", &(*studptr).birthYear);
+    scanf("%d", &(*studptr).birthYear);  // scanf("%d", &studptr->birthYear)
     printf("Average grade: ");
-    scanf("%lf", &(*studptr).aveGrade);
+    scanf("%lf", &(*studptr).aveGrade);  // scanf("%d", &studptr->aveGrade)
 }
 
 void printStudent(struct student stud) {
