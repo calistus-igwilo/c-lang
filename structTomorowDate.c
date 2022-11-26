@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+/*
+Implement a "tomorrow" feature in the C programming language via a function called "advanceDay()". 
+The function advanceDay() should take as input a date (stored in a struct date) and return the date 
+of the following day. You do not have to take into account leap years (although you may if you wish to). 
+That is, it is okay for your function to always return March 1 as the day following February 28, no 
+matter the year.
+
+You are provided with a main function as well as the function prototypes for the readDate(), printDate(),
+ and advanceDate() functions. Simply add your function definitions underneath the main() function. 
+ For the readDate() and printDate() functions you may simply copy and paste the code you developed in the 
+ previous task.
+
+*/
+
 struct date {
         int year;
         int month;
