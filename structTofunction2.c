@@ -23,3 +23,4 @@ void readDate(struct date *today) {
 void printDate(struct date today) {
     printf("%02d/%02d/%04d", today.month, today.day, today.year);
 }
+
