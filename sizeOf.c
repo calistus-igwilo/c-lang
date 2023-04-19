@@ -12,7 +12,7 @@ need to take care of it by yourself
 int main(void) {
     unsigned char j = 255;
     j += 10;
-    printf("%u\n", j); /* 9 */
+    printf("%u\n", j); /* 9 it gets to end and starts from 0*/
 
     /* Specific size of types*/
     printf("char size: %lu bytes\n", sizeof(char));

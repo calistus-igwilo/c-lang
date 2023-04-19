@@ -26,7 +26,11 @@ int main(void) {
     //printf("%d %d %d", arr[0], arr[1], arr[2]);
 }
 
-void reverseArray(int  * arr) {
-
+void reverseArray(int  *arr) {
+    int i;
+    
+    for (i = 5; i >=0; i--)
+        printf("%d",arr[i]);
+    printf("%c", '\n');
 }
 
